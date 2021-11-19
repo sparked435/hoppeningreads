@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{{ title }}</title>
+</head>
+<body>
+<div class="backgrounder"></div>
+{{& header }}
+{{& body }}
+{{# footer }}
+<br>
+<div class="foot">
+{{& footer }}
+</div>
+{{/ footer }}
+</body>
+</html>
